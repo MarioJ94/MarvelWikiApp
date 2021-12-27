@@ -1,0 +1,9 @@
+{
+    "available": 1,
+    "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011334/events",
+    "items": [{
+        "resourceURI": "http://gateway.marvel.com/v1/public/events/269",
+        "name": "Secret Invasion"
+    }],
+    "returned": 1
+}

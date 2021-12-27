@@ -1,0 +1,87 @@
+{
+    "available": 21,
+    "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011334/stories",
+    "items": [
+        {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/19947",
+            "name": "Cover #19947",
+            "type": "cover"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/19948",
+            "name": "The 3-D Man!",
+            "type": "interiorStory"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/19949",
+            "name": "Cover #19949",
+            "type": "cover"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/19950",
+            "name": "The Devil's Music!",
+            "type": "interiorStory"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/19951",
+            "name": "Cover #19951",
+            "type": "cover"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/19952",
+            "name": "Code-Name:  The Cold Warrior!",
+            "type": "interiorStory"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/47184",
+            "name": "AVENGERS: THE INITIATIVE (2007) #14",
+            "type": "cover"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/47185",
+            "name": "Avengers: The Initiative (2007) #14 - Int",
+            "type": "interiorStory"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/47498",
+            "name": "AVENGERS: THE INITIATIVE (2007) #15",
+            "type": "cover"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/47499",
+            "name": "Avengers: The Initiative (2007) #15 - Int",
+            "type": "interiorStory"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/47792",
+            "name": "AVENGERS: THE INITIATIVE (2007) #16",
+            "type": "cover"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/47793",
+            "name": "Avengers: The Initiative (2007) #16 - Int",
+            "type": "interiorStory"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/48361",
+            "name": "AVENGERS: THE INITIATIVE (2007) #17",
+            "type": "cover"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/48362",
+            "name": "Avengers: The Initiative (2007) #17 - Int",
+            "type": "interiorStory"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/49103",
+            "name": "AVENGERS: THE INITIATIVE (2007) #18",
+            "type": "cover"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/49104",
+            "name": "Avengers: The Initiative (2007) #18 - Int",
+            "type": "interiorStory"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/49106",
+            "name": "Avengers: The Initiative (2007) #18, Zombie Variant - Int",
+            "type": "interiorStory"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/49888",
+            "name": "AVENGERS: THE INITIATIVE (2007) #19",
+            "type": "cover"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/49889",
+            "name": "Avengers: The Initiative (2007) #19 - Int",
+            "type": "interiorStory"
+        }, {
+            "resourceURI": "http://gateway.marvel.com/v1/public/stories/54371",
+            "name": "Avengers: The Initiative (2007) #14, Spotlight Variant - Int",
+            "type": "interiorStory"
+        }],
+    "returned": 20
+}
