@@ -2,7 +2,7 @@
 
 This is a technical test performed within a 2-week time limit. The objective was to make an app that used [Marvel's API](https://developer.marvel.com/docs) that was capable of lazy-loading the list of characters, search for specific character names and access the details of a character. 
 
-It uses Swift, UIKit and Combine. 
+It uses Swift, UIKit and Combine.
 The design pattern used for the app is MVVM. 
 The communication layer used Alamofire.
 Unit tests are used for guaranteeing that proper decoding of the JSON responses was done successfully.
@@ -14,7 +14,7 @@ Dependency injection is used altogether with interface abstraction to leave the 
 
 ### MVVM design pattern:
 - The ViewModel asks for data, communicates with the Dto objects (model data) and publishes the view model.
-- The View subscribes to the ViewModel publisher and waits for the data to be be sent, adjusting to the errors received. 
+- The View subscribes to the ViewModel publisher and waits for the data to be be sent, adjusting to the errors received.
 
 ### Dependencies
 - The implementation of several UseCases for separating the request or the mapping logic simplifies the ViewModel classes.
@@ -22,7 +22,10 @@ Dependency injection is used altogether with interface abstraction to leave the 
 ### Communication layer
 - It is defined using the protocol EndpointType, which defines all the required values to identify and use and endpoint (host, path, http method, parameters, port ...).
 - After that, the definition of CharactersAPI, the enum MarvelCharactersEndpoint which implements EndpointType, and the enum CharactersAPIRequestParams containing structs to expose simply the parameters to the app are the only things needed to create the requests.
-- Then, the response is decoded and the different steps return the proper error so that I can control the type of error and what went wrong.
+- Then, the response is decoded and the different steps return the proper error so that the type of the error can be controlled to determine what went wrong.
+
+### View implementation
+- The Characters screen uses a UICollectionView with UICollectionViewDiffableDataSource and UICollectionViewCompositionalLayout with self-auto-sizable cells (self-sized using autolayout).
 
 ### Tests
 - The usage of protocols would help testing. Unfortunately, the only tests that have been implemented, are decoding tests.
