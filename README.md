@@ -55,6 +55,11 @@ To make use of this app, and following the developer guide of Marvel's API docum
 - private let hash = ""
 - private let timestamp = ""
 
+To do so, follow the instructions to get the public and private keys:
+https://developer.marvel.com/documentation/getting_started
+Then, select a value for the timestamp and generate the hash following the process described under Authentication for Server-Side Applications:
+https://developer.marvel.com/documentation/authorization
+
 # Libraries used
 
 - [SDWebImage](https://github.com/SDWebImage/SDWebImage)
