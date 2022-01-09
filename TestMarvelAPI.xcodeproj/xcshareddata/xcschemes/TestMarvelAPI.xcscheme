@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7A35876F2779D451003E787B"
-               BuildableName = "TestMarvelAPI.app"
+               BuildableName = "Marvel Wiki.app"
                BlueprintName = "TestMarvelAPI"
                ReferencedContainer = "container:TestMarvelAPI.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7A35876F2779D451003E787B"
-            BuildableName = "TestMarvelAPI.app"
+            BuildableName = "Marvel Wiki.app"
             BlueprintName = "TestMarvelAPI"
             ReferencedContainer = "container:TestMarvelAPI.xcodeproj">
          </BuildableReference>
@@ -82,7 +82,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7A35876F2779D451003E787B"
-            BuildableName = "TestMarvelAPI.app"
+            BuildableName = "Marvel Wiki.app"
             BlueprintName = "TestMarvelAPI"
             ReferencedContainer = "container:TestMarvelAPI.xcodeproj">
          </BuildableReference>
