@@ -48,7 +48,7 @@ The app can be displayed in portrait or landscape, and it arranges the views dep
       - Horizontal: Only for iPhone, the image is displayed in the left side, and the right side is the scrollable content, which only displays the information data.
       - Image on background: Only for iPad, the image is displayed as the background, and a gradient is shown behind the information data that moves with it.
 
-# Usage (IMPORTANT)
+# Instructions (IMPORTANT)
 
 To make use of this app, and following the developer guide of Marvel's API documentation, you would need to add in the info for the required elements inside CharactersAPI.swift:
 - private let apiKey = ""
@@ -62,6 +62,13 @@ https://developer.marvel.com/documentation/getting_started
 Then, select a value for the timestamp and generate the hash following the process described under Authentication for Server-Side Applications:
 
 https://developer.marvel.com/documentation/authorization
+
+You can use this https://www.md5hashgenerator.com/  to generate the md5 hash by introducing the string (replacing values) "tsPrivateKeyPublicKey". 
+
+As in the example, if ts=1000, privateKey=abcd, and publicKey=1234, you would introduce "1000abcd1234". Then, you would have all your values:
+- apiKey should be you public key, in this case 1234
+- hash would be the md5 hash generated
+- timestamp would be 1000
 
 # Libraries used
 
