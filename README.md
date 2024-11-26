@@ -14,13 +14,13 @@ Dependency injection is used altogether with interface abstraction to leave the 
 
 ### MVVM design pattern:
 - The ViewModel asks for data, communicates with the Dto objects (model data) and publishes the view model.
-- The View subscribes to the ViewModel publisher and waits for the data to be be sent, adjusting to the errors received.
+- The View subscribes to the ViewModel publisher and waits for the data to be sent, adjusting to the errors received.
 
 ### Dependencies
 - The implementation of several UseCases for separating the request or the mapping logic simplifies the ViewModel classes.
 
 ### Communication layer
-- It is defined using the protocol EndpointType, which defines all the required values to identify and use and endpoint (host, path, http method, parameters, port ...).
+- It is defined using the protocol EndpointType, which defines all the required values to identify and use an endpoint (host, path, http method, parameters, port ...).
 - After that, the definition of CharactersAPI, the enum MarvelCharactersEndpoint which implements EndpointType, and the enum CharactersAPIRequestParams containing structs to expose simply the parameters to the app are the only things needed to create the requests.
 - Then, the response is decoded and the different steps return the proper error so that the type of the error can be controlled to determine what went wrong.
 
